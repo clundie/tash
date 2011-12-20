@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0EE9B5148816B3002A442A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0EE9B4148816B3002A442A /* Cocoa.framework */; };
+		EA0EE9BF148816B3002A442A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0EE9BD148816B3002A442A /* InfoPlist.strings */; };
+		EA0EE9C1148816B3002A442A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0EE9C0148816B3002A442A /* main.m */; };
+		EA0EE9C5148816B3002A442A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EA0EE9C3148816B3002A442A /* Credits.rtf */; };
+		EA0EE9C8148816B3002A442A /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0EE9C7148816B3002A442A /* CLAppDelegate.m */; };
+		EA0EE9CB148816B3002A442A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0EE9C9148816B3002A442A /* MainMenu.xib */; };
+		EA0EE9D414881B5F002A442A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0EE9D314881B5F002A442A /* QTKit.framework */; };
+		EA0EE9D614881E2F002A442A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0EE9D514881E2F002A442A /* QuartzCore.framework */; };
+		EA7112A51489183A004B30D7 /* mustache_03.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7112A41489183A004B30D7 /* mustache_03.png */; };
+		EA7112A9148923BD004B30D7 /* CLYouTubeKiller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112A8148923BD004B30D7 /* CLYouTubeKiller.m */; };
+		EA7112AC148923D3004B30D7 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112AB148923D3004B30D7 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA7112B214892540004B30D7 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112B114892540004B30D7 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA7112B7148928CA004B30D7 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112B6148928CA004B30D7 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA7112BA148928FE004B30D7 /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112B9148928FE004B30D7 /* GTMMethodCheck.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA7112BD14892918004B30D7 /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7112BC14892918004B30D7 /* GTMObjC2Runtime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA0EE9B0148816B3002A442A /* Tash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0EE9B4148816B3002A442A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EA0EE9B7148816B3002A442A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EA0EE9B8148816B3002A442A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA0EE9B9148816B3002A442A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0EE9BC148816B3002A442A /* Tash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tash-Info.plist"; sourceTree = "<group>"; };
+		EA0EE9BE148816B3002A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0EE9C0148816B3002A442A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0EE9C2148816B3002A442A /* Tash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tash-Prefix.pch"; sourceTree = "<group>"; };
+		EA0EE9C4148816B3002A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EA0EE9C6148816B3002A442A /* CLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		EA0EE9C7148816B3002A442A /* CLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		EA0EE9CA148816B3002A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA0EE9D314881B5F002A442A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		EA0EE9D514881E2F002A442A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA7112A41489183A004B30D7 /* mustache_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mustache_03.png; sourceTree = "<group>"; };
+		EA7112A7148923BD004B30D7 /* CLYouTubeKiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYouTubeKiller.h; sourceTree = "<group>"; };
+		EA7112A8148923BD004B30D7 /* CLYouTubeKiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYouTubeKiller.m; sourceTree = "<group>"; };
+		EA7112AA148923D3004B30D7 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		EA7112AB148923D3004B30D7 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		EA7112B014892540004B30D7 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		EA7112B114892540004B30D7 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		EA7112B314892586004B30D7 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		EA7112B41489259D004B30D7 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		EA7112B5148928CA004B30D7 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		EA7112B6148928CA004B30D7 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		EA7112B8148928FE004B30D7 /* GTMMethodCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMethodCheck.h; sourceTree = "<group>"; };
+		EA7112B9148928FE004B30D7 /* GTMMethodCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMethodCheck.m; sourceTree = "<group>"; };
+		EA7112BB14892918004B30D7 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		EA7112BC14892918004B30D7 /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0EE9AD148816B3002A442A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0EE9D614881E2F002A442A /* QuartzCore.framework in Frameworks */,
+				EA0EE9D414881B5F002A442A /* QTKit.framework in Frameworks */,
+				EA0EE9B5148816B3002A442A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0EE9A5148816B3002A442A = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9BA148816B3002A442A /* Tash */,
+				EA0EE9B3148816B3002A442A /* Frameworks */,
+				EA0EE9B1148816B3002A442A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0EE9B1148816B3002A442A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9B0148816B3002A442A /* Tash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0EE9B3148816B3002A442A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9D514881E2F002A442A /* QuartzCore.framework */,
+				EA0EE9D314881B5F002A442A /* QTKit.framework */,
+				EA0EE9B4148816B3002A442A /* Cocoa.framework */,
+				EA0EE9B6148816B3002A442A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0EE9B6148816B3002A442A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9B7148816B3002A442A /* AppKit.framework */,
+				EA0EE9B8148816B3002A442A /* CoreData.framework */,
+				EA0EE9B9148816B3002A442A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EA0EE9BA148816B3002A442A /* Tash */ = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9C6148816B3002A442A /* CLAppDelegate.h */,
+				EA0EE9C7148816B3002A442A /* CLAppDelegate.m */,
+				EA7112A7148923BD004B30D7 /* CLYouTubeKiller.h */,
+				EA7112A8148923BD004B30D7 /* CLYouTubeKiller.m */,
+				EA7112AA148923D3004B30D7 /* GTMHTTPFetcher.h */,
+				EA7112AB148923D3004B30D7 /* GTMHTTPFetcher.m */,
+				EA7112B014892540004B30D7 /* GTMNSString+URLArguments.h */,
+				EA7112B114892540004B30D7 /* GTMNSString+URLArguments.m */,
+				EA7112B5148928CA004B30D7 /* GTMNSDictionary+URLArguments.h */,
+				EA7112B6148928CA004B30D7 /* GTMNSDictionary+URLArguments.m */,
+				EA7112B314892586004B30D7 /* GTMGarbageCollection.h */,
+				EA7112B41489259D004B30D7 /* GTMDefines.h */,
+				EA7112B8148928FE004B30D7 /* GTMMethodCheck.h */,
+				EA7112B9148928FE004B30D7 /* GTMMethodCheck.m */,
+				EA7112BB14892918004B30D7 /* GTMObjC2Runtime.h */,
+				EA7112BC14892918004B30D7 /* GTMObjC2Runtime.m */,
+				EA0EE9C9148816B3002A442A /* MainMenu.xib */,
+				EA7112A41489183A004B30D7 /* mustache_03.png */,
+				EA0EE9BB148816B3002A442A /* Supporting Files */,
+			);
+			path = Tash;
+			sourceTree = "<group>";
+		};
+		EA0EE9BB148816B3002A442A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0EE9BC148816B3002A442A /* Tash-Info.plist */,
+				EA0EE9BD148816B3002A442A /* InfoPlist.strings */,
+				EA0EE9C0148816B3002A442A /* main.m */,
+				EA0EE9C2148816B3002A442A /* Tash-Prefix.pch */,
+				EA0EE9C3148816B3002A442A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0EE9AF148816B3002A442A /* Tash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0EE9CE148816B3002A442A /* Build configuration list for PBXNativeTarget "Tash" */;
+			buildPhases = (
+				EA0EE9AC148816B3002A442A /* Sources */,
+				EA0EE9AD148816B3002A442A /* Frameworks */,
+				EA0EE9AE148816B3002A442A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tash;
+			productName = Tash;
+			productReference = EA0EE9B0148816B3002A442A /* Tash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0EE9A7148816B3002A442A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Chris Lundie";
+			};
+			buildConfigurationList = EA0EE9AA148816B3002A442A /* Build configuration list for PBXProject "Tash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0EE9A5148816B3002A442A;
+			productRefGroup = EA0EE9B1148816B3002A442A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0EE9AF148816B3002A442A /* Tash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0EE9AE148816B3002A442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0EE9BF148816B3002A442A /* InfoPlist.strings in Resources */,
+				EA0EE9C5148816B3002A442A /* Credits.rtf in Resources */,
+				EA0EE9CB148816B3002A442A /* MainMenu.xib in Resources */,
+				EA7112A51489183A004B30D7 /* mustache_03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0EE9AC148816B3002A442A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0EE9C1148816B3002A442A /* main.m in Sources */,
+				EA0EE9C8148816B3002A442A /* CLAppDelegate.m in Sources */,
+				EA7112A9148923BD004B30D7 /* CLYouTubeKiller.m in Sources */,
+				EA7112AC148923D3004B30D7 /* GTMHTTPFetcher.m in Sources */,
+				EA7112B214892540004B30D7 /* GTMNSString+URLArguments.m in Sources */,
+				EA7112B7148928CA004B30D7 /* GTMNSDictionary+URLArguments.m in Sources */,
+				EA7112BA148928FE004B30D7 /* GTMMethodCheck.m in Sources */,
+				EA7112BD14892918004B30D7 /* GTMObjC2Runtime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA0EE9BD148816B3002A442A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0EE9BE148816B3002A442A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA0EE9C3148816B3002A442A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0EE9C4148816B3002A442A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EA0EE9C9148816B3002A442A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0EE9CA148816B3002A442A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0EE9CC148816B3002A442A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA0EE9CD148816B3002A442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA0EE9CF148816B3002A442A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tash/Tash-Prefix.pch";
+				INFOPLIST_FILE = "Tash/Tash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA0EE9D0148816B3002A442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tash/Tash-Prefix.pch";
+				INFOPLIST_FILE = "Tash/Tash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0EE9AA148816B3002A442A /* Build configuration list for PBXProject "Tash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0EE9CC148816B3002A442A /* Debug */,
+				EA0EE9CD148816B3002A442A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0EE9CE148816B3002A442A /* Build configuration list for PBXNativeTarget "Tash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0EE9CF148816B3002A442A /* Debug */,
+				EA0EE9D0148816B3002A442A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0EE9A7148816B3002A442A /* Project object */;
+}
