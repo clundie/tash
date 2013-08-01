@@ -8,6 +8,8 @@ Build the project with Xcode 4.2. It requires Mac OS X 10.7 (Lion) to run.
 
 ## Bugs
 
+The code that finds direct links to YouTube videos no longer works.
+
 There is a memory leak in the QuickTime player, which cleans itself up when you click on the controls. So do that once in a while.
 
 ## Copying
